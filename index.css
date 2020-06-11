@@ -1,0 +1,37 @@
+body {background-color: lightseagreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(247, 247, 247);
+    }
+#canvas {
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    
+    display: grid;
+    grid-template-columns: repeat(20,1fr);
+    grid-template-rows: repeat(20,1fr);
+
+    border: 1px solid black;
+    border-radius: 5px;
+
+
+}
+
+#palette{
+    display: grid;
+    background-color: whitesmoke;
+    height: 20px;
+    width: 198px;
+    margin-top: 1em;
+    grid-template-columns: repeat(12,1fr);
+
+}
+
+.pixel{
+    height: 8px;
+    width: 8px;
+    border: 1px solid black;
+}
